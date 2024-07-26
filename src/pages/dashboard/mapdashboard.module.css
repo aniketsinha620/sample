@@ -1,0 +1,19 @@
+.contact-flex {
+  width: 100%;
+  height: 100vh;
+  /* border-radius: 45.2273px; */
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact-flex {
+    height: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .map-flex {
+    height: 50vh !important;
+  }
+}

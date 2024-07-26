@@ -1,0 +1,16 @@
+{
+    "build": {
+        "env": {
+            "NPM_FLAGS": "--legacy-peer-deps"
+        }
+    },
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "build"
+            }
+        }
+    ]
+}
